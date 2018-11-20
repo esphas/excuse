@@ -17,3 +17,11 @@ Actually, that's a feature
 ```bash
 EXCUSE=~/bin/excuse bash -c 'wget -qO $EXCUSE https://github.com/esphas/excuse/raw/master/excuse.sh && chmod 744 $EXCUSE'
 ```
+
+### Windows
+
+#### Install with Scoop
+
+```batch
+scoop install https://raw.githubusercontent.com/esphas/excuse/master/excuse.json
+```
