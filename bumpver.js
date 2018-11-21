@@ -19,10 +19,10 @@ function makeScoop(data) {
   fs.writeFileSync(scoopPath, JSON.stringify(scoop, null, 2));
 }
 
-async function gitTag() {
+async function gitTag(version) {
   await exec('git add ' + infoPath);
   await exec('git add ' + scoopPath);
-  await exec('git commit -m "bump version"');
+  await exec('git commit -m "bump version to v' + version + '"');
   await exec('git tag v' + version);
 }
 
@@ -46,7 +46,7 @@ function main(type, extra) {
   let data = { version };
   makeScoop(data);
   fs.writeFileSync(infoPath, JSON.stringify(data, null, 2));
-  gitTag();
+  gitTag(version);
 }
 
 let type = process.argv[2] || 'm';
