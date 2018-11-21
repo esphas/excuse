@@ -3,5 +3,9 @@
   "url": "https://raw.githubusercontent.com/esphas/excuse/v0.2.0/bin/excuse.ps1",
   "bin": "excuse.ps1",
   "homepage": "https://github.com/esphas/excuse",
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://raw.githubusercontent.com/esphas/excuse/v$version/bin/excuse.ps1"
+  },
   "hash": "1f1d47d8ed030b1b5238808c728651d8f1674e3df261b6806893cd42722b851b"
 }
