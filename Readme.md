@@ -15,7 +15,7 @@ Actually, that's a feature
 ### Linux
 
 ```bash
-EXCUSE=~/bin/excuse bash -c 'wget -qO $EXCUSE https://github.com/esphas/excuse/raw/master/excuse.sh && chmod 744 $EXCUSE'
+curl -sSL https://raw.githubusercontent.com/esphas/excuse/master/scripts/install.sh | bash
 ```
 
 ### Windows
