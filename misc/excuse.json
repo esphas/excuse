@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "url": "https://raw.githubusercontent.com/esphas/excuse/master/excuse.ps1",
+  "url": "https://raw.githubusercontent.com/esphas/excuse/master/bin/excuse.ps1",
   "bin": "excuse.ps1",
   "homepage": "https://github.com/esphas/excuse"
 }
