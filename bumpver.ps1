@@ -1,0 +1,2 @@
+
+node ./bumpver.js $args
