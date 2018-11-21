@@ -1,7 +1,7 @@
 
 # Excuse
 
-Unofficial command-line tool for retrieving quotes from [Excuses for Lazy Coders](http://developerexcuses.com). 
+Unofficial command-line tool for retrieving quotes from [Excuses for Lazy Coders](http://programmingexcuses.com).
 
 ## Usage
 
