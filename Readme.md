@@ -23,5 +23,5 @@ curl -sSL https://raw.githubusercontent.com/esphas/excuse/master/scripts/install
 #### Install with Scoop
 
 ```batch
-scoop install https://raw.githubusercontent.com/esphas/excuse/master/excuse.json
+scoop install https://raw.githubusercontent.com/esphas/excuse/master/misc/excuse.json
 ```
